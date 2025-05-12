@@ -31,6 +31,10 @@
 ##### • 새로운 가상환경 생성
 conda create -n pyQT_yolo python=3.9
 
+##### • 폴더 및 파일 구조 
+![image](https://github.com/user-attachments/assets/b7a7d8eb-0420-4a0b-94fc-00f5e81dccd8)
+
+
 ##### • 1차 requirements.txt 인스톨 
 pip install -3 requirement.txt
 
