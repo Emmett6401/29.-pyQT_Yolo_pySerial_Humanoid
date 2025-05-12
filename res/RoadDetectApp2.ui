@@ -7,11 +7,11 @@
     <x>0</x>
     <y>0</y>
     <width>475</width>
-    <height>798</height>
+    <height>644</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>도로시설보수탐지AI앱</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLineEdit" name="detect_put">
@@ -21,7 +21,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>90</y>
+      <y>70</y>
       <width>113</width>
       <height>20</height>
      </rect>
@@ -37,8 +37,8 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>160</y>
-      <width>211</width>
+      <y>140</y>
+      <width>351</width>
       <height>21</height>
      </rect>
     </property>
@@ -50,7 +50,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>61</y>
+      <y>41</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -63,7 +63,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>160</y>
+      <y>140</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -79,7 +79,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>60</y>
+      <y>40</y>
       <width>113</width>
       <height>20</height>
      </rect>
@@ -92,7 +92,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>120</y>
+      <y>100</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -108,7 +108,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>120</y>
+      <y>100</y>
       <width>231</width>
       <height>21</height>
      </rect>
@@ -121,7 +121,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>90</y>
+      <y>70</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -133,23 +133,23 @@
    <widget class="QPushButton" name="btnSave">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>160</y>
+      <x>330</x>
+      <y>100</y>
       <width>111</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>저장</string>
+     <string>도로 사진 저장</string>
     </property>
    </widget>
    <widget class="QLabel" name="cam">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>240</y>
-      <width>441</width>
-      <height>331</height>
+      <y>220</y>
+      <width>401</width>
+      <height>301</height>
      </rect>
     </property>
     <property name="text">
@@ -166,7 +166,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>200</y>
+      <y>180</y>
       <width>441</width>
       <height>23</height>
      </rect>
@@ -179,7 +179,7 @@
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>30</y>
+      <y>10</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -192,7 +192,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>30</y>
+      <y>10</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -208,9 +208,9 @@
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>31</y>
+      <y>0</y>
       <width>31</width>
-      <height>20</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -226,10 +226,10 @@
    <widget class="QListWidget" name="detectListWidget">
     <property name="geometry">
      <rect>
-      <x>15</x>
-      <y>580</y>
+      <x>10</x>
+      <y>530</y>
       <width>441</width>
-      <height>192</height>
+      <height>71</height>
      </rect>
     </property>
    </widget>
