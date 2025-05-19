@@ -32,19 +32,27 @@
 
 ## 설치 방법
 ##### • 새로운 가상환경 생성
+```
 conda create -n pyQT_yolo python=3.9
+```
 
 ##### • 폴더 및 파일 구조 
 ![image](https://github.com/user-attachments/assets/b7a7d8eb-0420-4a0b-94fc-00f5e81dccd8)
 
 
 ##### • 1차 requirements.txt 인스톨 
+```
 pip install -3 requirement.txt
+```
 
 ##### •  git colne
+```
 git clone http://github.cpm/ultralytics/yolo5.git
+```
 
 ##### • 2차 requirement.txt 인스톨
+```
 cd yolov5
 pip install -3 requirement.txt
+```
 
