@@ -55,4 +55,9 @@ git clone http://github.cpm/ultralytics/yolo5.git
 cd yolov5
 pip install -3 requirement.txt
 ```
+##### • 프로그램 실행    
+```
+python app.py
+```
+
 
